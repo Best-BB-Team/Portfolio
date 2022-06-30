@@ -1,0 +1,12 @@
+{
+    "name": "preisler-jaccas",
+    "version": "1.0.4",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "4.18.1"
+    },
+    "author": "Kálmán Barnabás, Preisler András",
+    "license": "MIT"
+}
