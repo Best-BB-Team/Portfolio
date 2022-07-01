@@ -1,0 +1,91 @@
+@media only screen and (min-aspect-ratio: 4/3) {
+    *{
+        margin: 0;
+        /* border: 1px solid red; */
+    }
+    ::-webkit-scrollbar {
+        display: none;
+      }
+    html{
+        height: 100vh;
+        background: 
+                linear-gradient(217deg, rgba(47, 134, 255, 0.8), rgba(92, 108, 130, 0) 70.71%),
+                linear-gradient(127deg, rgba(80, 142, 183, 0.8), rgba(100, 146, 198, 0) 70.71%),
+                linear-gradient(336deg, rgba(52, 212, 248, 0.8), rgba(128, 131, 140, 0) 70.71%);
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(217deg, rgb(102, 75, 200), rgba(60, 60, 105, 0.4) 70.71%);
+                height: 7vh;
+    }
+    h1{
+        margin-top: 2vh;
+    }
+    
+    #navcont{
+        display:  flex;
+        top: 2%;
+        right: 1%;
+        position: fixed;
+    }
+    
+    .navtool{
+        margin-right: 1vw; 
+        list-style-type: none;
+        color: aliceblue;
+    }
+
+    
+    #cont{
+        margin-left: -6vw;
+        margin-top: 9vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .table{
+        height: 70vh;
+        width: 24vw;
+        margin-left: 6vw;
+        color: aliceblue;
+        background-color: rgba(240, 248, 255, 0.233);
+        border-radius: 1vw;
+    }
+    .txt{
+        margin-right: 1vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        font-size: 3vh;
+    }
+    #day-txt{
+        display: flex;
+        justify-content: center;
+        margin-right: 1vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        font-size: 4vh;
+    }
+    #day-poem{
+        display: flex;
+        justify-content: center;
+        margin-right: 1vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        font-size: 4vh;
+    }
+    #cejetlek{
+        position: fixed;
+        color: rgb(255, 0, 0);
+        right: 47%;
+        bottom: 1%;
+    }
+    footer{
+        display: flex;
+    }
+    .navtool>a{
+        color: aliceblue;
+        border-bottom: none;
+    }
+  }
