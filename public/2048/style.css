@@ -1,6 +1,5 @@
 @media only screen and (min-aspect-ratio: 4/3) {
     *{
-        border: 1px solid red;
         margin: 0;
         /* border: 1px solid red; */
     }
@@ -40,12 +39,27 @@
 
     
     #cont{
-        margin-left: -6vw;
-        margin-top: 9vh;
+        margin-top: 5vh;
         display: flex;
         justify-content: center;
+        
     }
-    
+    #table{
+        padding: 3vh;
+        border-radius: 2vh;
+        background-color: rgba(240, 248, 255, 0.147);
+        width: 80vh;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        height: 80vh;
+        gap: 1vh;
+    }
+    .block{
+        display: flex;
+        justify-content: center; 
+        padding-top: 9vh;
+        border: 0.4vh solid white;
+    }
     .table{
         height: 70vh;
         width: 24vw;
@@ -76,21 +90,12 @@
         margin-left: 1vw;
         font-size: 4vh;
     }
-    #cejetlek{
-        position: fixed;
-        color: rgb(255, 0, 0);
-        right: 47%;
-        bottom: 1%;
-    }
+
     footer{
         display: flex;
     }
     .navtool>a{
         color: aliceblue;
         border-bottom: none;
-    }
-    main{
-        background-color:aliceblue;
-        
     }
   }
