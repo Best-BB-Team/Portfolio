@@ -39,10 +39,6 @@ const moveUp = () =>{
         document.getElementById(upperId).innerHTML += myNum;
         e.innerHTML = ""
       }
-      else{
-        alert(condNum)
-        alert(myNum)
-      }
     }
   }
 });
@@ -65,10 +61,6 @@ const moveDown = () =>{
         document.getElementById(lowerId).innerHTML += myNum;
         e.innerHTML = ""
       }
-      else{
-        alert(condNum)
-        alert(myNum)
-      }
     }
   }
 });
@@ -90,10 +82,6 @@ const moveLeft = () =>{
         document.getElementById(lefterId).innerHTML += myNum;
         e.innerHTML = ""
       }
-      else{
-        alert(condNum)
-        alert(myNum)
-      }
     }
   }
 });
@@ -113,10 +101,6 @@ const moveRight = () =>{
       if (condNum == myNum || condNum == "") {
         document.getElementById(righterId).innerHTML += myNum;
         e.innerHTML = ""
-      }
-      else{
-        alert(condNum)
-        alert(myNum)
       }
     }
   }
